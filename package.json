@@ -1,0 +1,13 @@
+{
+  "name": "wingai",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:api": "npm --workspace apps/api run dev",
+    "dev:dashboard": "npm --workspace apps/dashboard run dev",
+    "dev": "echo \"Run in two terminals: npm run dev:api && npm run dev:dashboard\""
+  }
+}
+
